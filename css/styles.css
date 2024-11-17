@@ -18,3 +18,22 @@ body {
 .nav-link:hover {
   color: var(--primary-green);
 }
+
+.nav-link:focus {
+  color: var(--primary-green);
+}
+
+.button {
+background-color: var(--primary-green);
+border: var(--primary-green);
+color: var(--primary-light);
+border-radius: 8px;
+width: 238px;
+height: 59px;
+}
+
+.button:hover, .button:focus{
+  background-color: var(--primary-light);
+  color: #465929;
+  border: 2px var(--primary-green) solid;
+}
