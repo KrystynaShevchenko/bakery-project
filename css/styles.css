@@ -1,0 +1,20 @@
+:root {
+  --primary-light: #faf4ea;
+  --primary-green: #819b57;
+  --primary-dark: #31261a;
+}
+
+body {
+  background-color: chocolate;
+}
+
+.logo {
+  color: var(--primary-light);
+}
+.nav-link {
+  color: var(--primary-light);
+}
+
+.nav-link:hover {
+  color: var(--primary-green);
+}
